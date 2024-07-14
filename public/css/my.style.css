@@ -1,0 +1,45 @@
+.bi-moon-stars-fill::before {
+    margin-right: 1rem;
+    font-size: 1.9rem;
+}
+/* SIDEBAR */
+.Sidebar {
+    width: 280px;
+    transition: 0.3s;
+}
+
+.small-sidebar {
+    width: 77px;
+}
+
+.small-sidebar .sidebar-text {
+    display: none;
+}
+
+/* Logo */
+.bi-moon-stars-fill{
+    rotate: 360deg;
+    transition: 1s;
+    margin-top: 1rem;
+    }
+
+.small-sidebar .bi-moon-stars-fill{
+
+    margin-top: 2.5rem;
+}
+.small-sidebar .bi-door-closed::before {
+    content: "\F1C3";
+    transition: 1s;
+}
+
+.small-sidebar .bi-moon-stars-fill::before {
+    content: "\F496";
+    transform: rotatey(360deg);
+    transition: 1s;
+    margin-left: 0.55rem;
+}
+
+.bi-door-closed{
+    font-size: 1.4rem;
+    transition: 1s;
+}
